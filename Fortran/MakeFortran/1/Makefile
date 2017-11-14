@@ -8,7 +8,6 @@ RUN := ./$(PROGRAM)
 $(PROGRAM): hoge.f90
 	${FC} $< $(FFLAGS) $@
 
-
 run:
 	$(RUN)
 

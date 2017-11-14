@@ -5,7 +5,7 @@ program main
 
   call subprog
 
-  print*, i+1
-  print*, xx
+  print*, i+1, '= 8 int'
+  print*, xx, '= 6 dble'
 
 endprogram main

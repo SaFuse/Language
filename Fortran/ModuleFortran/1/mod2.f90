@@ -11,9 +11,9 @@ subroutine subprog
   x2 = 2.0d0
   x3 = 3.0d0
 
-  x1 = x1 + x2 + x3
+  xx = x1 + x2 + x3
 
-  i = int(x1 * pi) + 1
+  i = x2 * pi + 1
 
 endsubroutine subprog
 
